@@ -4,33 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32561fad-ba50-4a9a-9c8b-246f95833ed7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kampret.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kampret/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kampret/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kampret/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kampret/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kampret/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/tools/enkripsi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/tools/enkripsi_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/tools/getToken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenku/views.py" afterDir="false" />
+    <list default="true" id="32561fad-ba50-4a9a-9c8b-246f95833ed7" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/tokenku/tools/oldenkripsi_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kampret/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kampret/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokenku/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tokenku/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokenku/tools/enkripsi_token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokenku/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tokenku/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +65,7 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "mariadb",
       "mysql"
     ]
   }
@@ -94,7 +75,7 @@
       <recent name="$PROJECT_DIR$/tokenku" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Django Server.kampret">
     <configuration name="enkripsi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kampret" />
       <option name="ENV_FILES" value="" />
@@ -261,8 +242,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716350828446</updated>
-      <workItem from="1716350829915" duration="13475000" />
+      <workItem from="1716350829915" duration="17619000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1716445977523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716445977523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +260,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kampret$tests.coverage" NAME="tests Coverage Results" MODIFIED="1716440132446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tokenku" />

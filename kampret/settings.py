@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import pymysql
+
+pymysql.install_as_MySQLdb()
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,6 +86,47 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'token_db',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#         'OPTIONS': {
+#             'charset': 'utf8mb4',
+#         },
+#         'CONN_MAX_AGE': 600,
+#     }
+# }
+
+
 
 
 # Password validation
